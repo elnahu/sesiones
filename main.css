@@ -1,0 +1,132 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 400px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    background-color: #ff6b6b;
+    color: #fff;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type=submit]:hover {
+    background-color: #ff4f4f;
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.option {
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.option.red {
+    background-color: #ff6b6b;
+}
+
+.option.blue {
+    background-color: #6bd3ff;
+}
+
+.option.green {
+    background-color: #6bff94;
+}
+
+.option.yellow {
+    background-color: #fff56b;
+}
+
+.option:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu .home {
+    background-color: #ff6b6b;
+}
+
+.menu .about {
+    background-color: #6bd3ff;
+}
+
+.menu .contact {
+    background-color: #6bff94;
+}
+
+.menu .blog {
+    background-color: #fff56b;
+}
+
+.menu a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logout {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.logout a {
+    color: #ff6b6b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logout a:hover {
+    color: #ff4f4f;
+}
