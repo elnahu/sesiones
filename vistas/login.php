@@ -21,10 +21,10 @@
         <p>Password: <br>
         <input type="password" name="password"></p>
         <p class="center"><input type="submit" value="Iniciar Sesión"></p>
-        <form action="includes/crearcuenta.php" method="POST">
+        
+    </form>
+    <form action="includes/crearcuenta.php" method="POST">
             <p class="center"><input type="submit" value="Crear cuenta"></p>
         </form>
-    </form>
-    
 </body>
 </html>
